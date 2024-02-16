@@ -139,11 +139,16 @@ require (
 
 replace (
 	github.com/emicklei/go-restful => github.com/emicklei/go-restful/v3 v3.8.0
+	github.com/pkg/sftp => github.com/pkg/sftp v1.13.6
 	github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.18.0
+	github.com/yuin/goldmark => github.com/yuin/goldmark v1.7.0
 	go.etcd.io/etcd/api/v3 => go.etcd.io/etcd/api/v3 v3.5.11
+	go.etcd.io/etcd/pkg/v3 => go.etcd.io/etcd/pkg/v3 v3.5.12
+	go.etcd.io/etcd/server/v3 => go.etcd.io/etcd/server/v3 v3.5.12
 	golang.org/x/crypto => golang.org/x/crypto v0.19.0
 	golang.org/x/net => golang.org/x/net v0.19.0
 	golang.org/x/text => golang.org/x/text v0.14.0
+	google.golang.org/grpc => google.golang.org/grpc v1.61.1
 	gopkg.in/yaml.v2 => gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api => k8s.io/api v0.27.8
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.27.8
