@@ -63,7 +63,7 @@ require (
 	github.com/googleapis/enterprise-certificate-proxy v0.3.2 // indirect
 	github.com/googleapis/gax-go/v2 v2.12.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
-	github.com/grpc-ecosystem/grpc-gateway/v2 v2.7.0 // indirect
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.11.3 // indirect
 	github.com/imdario/mergo v0.3.6 // indirect
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
@@ -139,6 +139,12 @@ require (
 
 replace (
 	github.com/emicklei/go-restful => github.com/emicklei/go-restful/v3 v3.8.0
+	github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.18.0
+	go.etcd.io/etcd/api/v3 => go.etcd.io/etcd/api/v3 v3.5.11
+	golang.org/x/crypto => golang.org/x/crypto v0.19.0
+	golang.org/x/net => golang.org/x/net v0.19.0
+	golang.org/x/text => golang.org/x/text v0.14.0
+	gopkg.in/yaml.v2 => gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api => k8s.io/api v0.27.8
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.27.8
 	k8s.io/apimachinery => k8s.io/apimachinery v0.27.8
